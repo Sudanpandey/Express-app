@@ -10,7 +10,7 @@ export const connection = createConnection({
   password: "",
   database: "school",
   entities: [Student],
-  migrations: ["migration/*.js"],
+  migrations: ["migration/*.ts"],
   cli: {
     migrationsDir: "migration",
   },
